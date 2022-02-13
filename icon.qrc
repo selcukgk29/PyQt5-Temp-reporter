@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/cross.png</file>
+    <file>icons/full-screen (1).png</file>
+    <file>icons/full-screen.png</file>
+    <file>icons/high-temperature.png</file>
+    <file>icons/list.png</file>
+    <file>icons/notification.png</file>
+    <file>icons/radioactivity.png</file>
+    <file>icons/share.png</file>
+    <file>icons/cross.png</file>
+    <file>icons/full-screen (1).png</file>
+    <file>icons/full-screen.png</file>
+    <file>icons/high-temperature.png</file>
+    <file>icons/list.png</file>
+    <file>icons/high-temperature.png</file>
+  </qresource>
+</RCC>
