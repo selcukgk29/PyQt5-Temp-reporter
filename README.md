@@ -3,7 +3,7 @@
 
 ![Animation](https://user-images.githubusercontent.com/36342161/153767614-35ed4d16-3e03-44f0-8dd6-dfcf1f3f4637.gif)
 
-Temp data monitor and reporter
+Temperature Data from a MQTT client,  monitor, reporter and export 
 
 
 This program aims to real time temp data view export all time data's and send autometed temp reports at frequency you need.The data recieves from a fake  MQTT client every 20 minutes.I used to visualize real-time data with Python’s Matplotlib and embed to GUI using PyQt5.
