@@ -123,7 +123,7 @@ class MyApp(QMainWindow):
             mail.ehlo()
             mail.starttls()
             mail.login("selcuksmtp1@gmail.com",
-                       "29Qazxsw29.")
+                       "Passwords")
             mail.sendmail(mesaj["From"], mesaj["To"], mesaj.as_string())
             print("Mail başarıyla gönderildi....")
             mail.close()
