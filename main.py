@@ -44,7 +44,7 @@ class mail(QThread):
         print(self.asd.ui.listWidget.item(0).text())
         for i in mails:
             mesaj = MIMEMultipart()
-            mesaj["From"] = "selcuksmtp1@gmail.com"
+            mesaj["From"] = "MAIL"
             mesaj["To"] = i
             mesaj["Subject"] = "IOT Reporter"
             yazi = self.asd.report()
@@ -54,7 +54,7 @@ class mail(QThread):
             mail.ehlo()
             mail.starttls()
             mail.login("selcuksmtp1@gmail.com",
-                       "29Qazxsw29.")
+                       "")
             mail.sendmail(mesaj["From"], mesaj["To"], mesaj.as_string())
             print("Mail başarıyla gönderildi....")
             mail.close()
